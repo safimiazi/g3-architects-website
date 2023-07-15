@@ -39,7 +39,7 @@ nav li {
 }
 nav li a {
     text-decoration: none;
-color:#424242;
+    color:#424242;
 }
 /*style banner*/
 .banner-content {
@@ -56,4 +56,27 @@ color:#424242;
     color: #727272;
     font-weight: 400;
     font-size: 1rem;
+}
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+/*responsive media quary */
+/*mobile device*/
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+/*tablet or medium device*/
+@media  screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+        flex-direction: column;
+    }
+    header {
+        padding: 20px;
+    }
 }
